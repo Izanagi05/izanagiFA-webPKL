@@ -1,0 +1,199 @@
+
+:root{
+  --bg:#0b172a;
+  /* --bg2:#e3eff2; */
+  --bg2:white;
+}
+@font-face {
+  font-family: "poppins";
+  src: local("poppins"),
+   url(~assets/font/Poppins-Regular.ttf) format("truetype");
+}
+.navbar .nav-item a:active{
+  color: #f9a114;
+}
+.navbar .nav-item a:hover{
+  color: #f9a114;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.textjdl{
+  font-weight: bold ;
+  font-size: 30px;
+  /* color: black; */
+}
+.navbar{
+  display: flex;
+  justify-content:end;
+  /* padding-right: 24px; */
+  background: transparent;
+
+  transition: 0.3s ease-in;
+}
+.navbar  .nav-item a{
+  transition: 0.3s ease-in;
+  color: black;
+}
+.sticky  .nav-item a{
+  transition: 0.3s ease-in;
+  color: white;
+}
+.sticky  .nav-item a:active{
+
+  color: white;
+}
+.sticky  .nav-item a:hover{
+
+  color: white;
+}
+.sticky{
+  background: #f9a114;
+  color: white;
+}
+.nav-link{
+  display: flex;
+  justify-content: end;
+
+}
+.nxlink{
+  font-weight: 600;
+}
+.nav-item{
+  list-style: none;
+  margin-left: 20px;
+}
+.nxlink:active{
+  color: #fdbf50;
+}
+
+.home{
+
+  padding:100px 20px;
+  height: 100vh;
+  background: url('~/assets/bg/BG1.png');
+  background-size: cover;
+  background-attachment: fixed;
+  display: inline-flex;
+  align-content: center;
+}
+.alltekshome{
+  /* padding: 100px 0px; */
+}
+.teks-1{
+  font-size:28px;
+}
+.teksnama{
+  font-size:74px;
+}
+.tekssiswa{
+  font-size:28px;
+}
+
+.pendahuluan{
+  background: var(--bg2);
+  padding: 100px 40px;
+  padding-bottom: 0;
+
+}
+.latarbelakangjdl{
+  font-weight: 600;
+  font-size: 20px;
+}
+.latarbelakangisi p{
+  text-align: justify;
+}
+
+
+.sejarah{
+  background: var(--bg2);
+  padding: 100px 40px;
+  padding-bottom: 0;
+}
+.sejarahjdl{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+
+.kegiatan{
+  /* color: white; */
+  background: var(--bg2);
+  padding:100px 40px;
+  padding-bottom: 0;
+}
+.kartukgthv{
+  background: rgb(234, 244, 247) ;
+  color: #f9a114;
+  transition: 0.3s ease;
+  z-index: 3;
+}
+.kartukgthv:hover {
+  z-index: 9;
+  background: #f9a114;
+  color: white !important;
+  transform: scale(1.1);
+}
+.kesimpulan{
+  padding:100px 40px;
+  background: var(--bg2);
+  padding-bottom: 0;
+}
+.lampiran{
+  padding:100px 40px;
+  background: var(--bg2);
+
+}
+.carosel{
+overflow-y:scroll;
+}
+.lampirandft{
+  margin-right: 20px;
+}
+.menu{
+  display: none;
+}
+.nav-itemmb{
+  margin-bottom: 20px;
+  font-size: 28px;
+  list-style: none;
+}
+.menuactivembl{
+  display: none;
+}
+
+.barmbl{
+  display: none;
+}
+@media only screen and (max-width: 947px){
+  .menu{
+    display: block;
+
+    position: fixed;
+      height: 100vh;
+      width: 100%;
+      z-index: 999;
+      top: -100%;
+      left: 0;
+      background: #111111da;
+      text-align: center;
+      padding-top: 80px;
+      transition: all 0.3s ease;
+  }
+  .menuactivembl{
+    display: block;
+    top:0;
+  }
+  .bardeks{
+    display: none;
+  }
+  .barmbl{
+    display:block;
+  }
+}
