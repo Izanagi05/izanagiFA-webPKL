@@ -1,9 +1,1 @@
-{
-    "version": 2,
-    "builds": [
-        {
-            "src":"nuxt.configt.js",
-            "use": "@nuxtjs/vercel-builder"
-        }
-    ]
-}
+{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
