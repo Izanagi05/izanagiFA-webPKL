@@ -178,7 +178,7 @@ overflow-y:scroll;
       height: 100vh;
       width: 100%;
       z-index: 999;
-      top: -100%;
+      top: -1800px;
       left: 0;
       background: #111111da;
       text-align: center;
