@@ -215,7 +215,7 @@
           {src:'11.png',},
           {src:'12.png',},
         ],
-        isActive:true,
+        isActive:false,
       }
     },
     methods: {
