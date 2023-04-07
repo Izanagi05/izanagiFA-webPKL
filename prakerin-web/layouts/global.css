@@ -79,7 +79,6 @@ html{
   background: url('~/assets/bg/BG1.png');
   background-size: cover;
   background-attachment: fixed;
-  display: inline-flex;
   align-content: center;
 }
 .alltekshome{
