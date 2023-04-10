@@ -155,13 +155,14 @@ overflow-y:scroll;
 .lampirandft{
   margin-right: 20px;
 }
-.menu{
-  display: none;
-}
+
 .nav-itemmb{
   margin-bottom: 20px;
   font-size: 28px;
   list-style: none;
+}
+.menu{
+  display: none;
 }
 .menuactivembl{
   display: none;

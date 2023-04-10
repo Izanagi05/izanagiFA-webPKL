@@ -117,7 +117,7 @@
                       Desain UI
                   </v-card-title>
                   <v-card-text class="deskkartu">
-                    Membuat desain website menggunakan Figma sebagai User Interface agar memungkinkan pengguna berintraksi dengan aplikasi
+                    Membuat desain website menggunakan Figma sebagai User Interface agar memungkinkan pengguna berinteraksi dengan aplikasi
                   </v-card-text>
                 </div>
 
@@ -184,7 +184,7 @@
 </v-col>
 </v-row>
           </section>
-    <footer class="text-center"> <span class=""> Created by <a href="">Izanagi Faris Aslam</a> | © 2023</span></footer>
+    <footer class="text-center"> <span class=""> Created by <a href="https://instagram.com/za.frs.slm?igshid=YmMyMTA2M2Y=">Izanagi Faris Aslam</a> | © 2023</span></footer>
   </div>
   </template>
 
